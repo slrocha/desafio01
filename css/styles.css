@@ -1,0 +1,94 @@
+body{
+    background: url('../images/music.jpg') no-repeat center center fixed;
+   /*faz a imagem caber na tela*/
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    opacity: 0.5;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #f15025de;
+    font-size: 25px;
+}
+
+.profile{
+    width: 45%;
+    margin-top: 13%;
+    float: right;
+    border: 5px solid #9c8f63;
+   
+}
+
+.background-img{
+    background: url('../images/integrantes.jpg') no-repeat center center fixed !important;
+    /* border: 5px solid black; */
+}
+
+.space{
+    margin-right: 10px;
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #e9d59b;
+    border-color: #e9d59b
+    text-decoration: none;
+}
+
+.padding-right{
+    padding-right: 5px; 
+}
+
+section{
+    float: right;
+    margin-top: 8%;
+    width: 48%;
+    height: 50%;
+
+}
+
+p, li{
+    text-align: end;
+    font-size: larger;
+    color: black;
+}
+
+ul{
+    position: absolute;
+    display: contents;
+}
+
+div{
+    float: left;
+}
